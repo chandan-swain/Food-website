@@ -1,0 +1,52 @@
+
+body{
+    background-image: url(background1.jpg);
+    background-size: cover;
+}
+#overlay
+{
+    width: 30%;
+  margin: 3% auto;
+  height: 80vh;
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 40px;
+}
+form{
+    text-align: center;
+  line-height: 30px;
+  height: 80%;
+  overflow: auto;
+}
+h1{
+    text-align: center;
+    color: blue;
+   font-family:Papyrus;
+   font-size: 30px;
+    
+}
+label
+{
+    white-space: 30px;
+    border-radius: 30px;
+}
+.user{
+    margin-bottom: 30px;
+    border-radius: 30px;
+    
+    font-weight: bold;
+}
+.ok
+{
+    border-radius: 20px;
+    width: 100px;
+    margin-left: 30px;
+}
+.user1{
+    font-size: 20px;
+    color: darkorchid;
+}
+img{
+    margin-top: 30px;
+    width: 150px;
+}
+   

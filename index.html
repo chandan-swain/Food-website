@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Highway Resturant</title>
+        <link href="style.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        
+    </head>
+    <body>
+        <div class="top">
+         <div class="logo">
+          High_Way Restro  
+         </div>
+         <div class="nav">
+            <a href="#">Home</a>
+            <a href="about/about.html" target="_blank">About</a>
+            <a href="login/login.html" target="_blank">Login</a>
+            <a href="#">Contact</a>
+            <lable  for="dropdown">Menu</lable>
+            <br>
+            <select id="dropdown" name="dropdown">
+                <option vlaue="opt0"> Select one</option>
+                <option vlaue="opt1"> Veg</option>
+                <option vlaue="opt2"> Non-veg</option>
+                <option vlaue="opt3"> Deaserts</option>
+            </select>
+         </div>
+         <div class="search">
+           <a href="#">
+            <input type="text" id="order">
+            <i class="fa-solid fa-search"></i></a>
+            <i class="fa-solid fa-bars-staggered navbar-toogler-icon"></i>
+         </div>
+        </div>
+        <div class="heading">
+            <div class="left">
+            <p>Are You Hungry?</p>
+            <h1>Don't Wait</h1>
+            <p>Let start to order food now</p>
+            <button>Check out Menu</button>
+            </div>
+            <div class="right" id="food"></div>
+            <div class="socialmedia">
+                <a href="https://www.facebook.com/food.com/" target="_blank">
+                    <i class="fa-brands fa-facebook-f"></i>
+                </a>
+                <a href="https://twitter.com/Fooddotcom?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blank">
+                <i class="fa-brands fa-twitter"></i>
+            </a>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-whatsapp"></i>
+
+            </div>
+        </div>
+     <div class="botton">
+      <div class="menu">
+        <div id="food1"></div>
+        <div id="food2"></div>
+        <br>
+        <div id="food3"></div>
+      </div>  
+     </div>
+    <script src="function.js"></script>
+    </body>
+</html>
